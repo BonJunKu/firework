@@ -1,0 +1,27 @@
+{
+  "name": "firework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonJunKu/firework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BonJunKu/firework/issues"
+  },
+  "homepage": "https://github.com/BonJunKu/firework#readme",
+  "dependencies": {
+    "fireworks-js": "^2.10.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.84.0",
+    "webpack-cli": "^5.1.1"
+  }
+}
