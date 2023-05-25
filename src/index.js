@@ -3,24 +3,24 @@ import { Fireworks } from 'fireworks-js';
 const container = document.querySelector('.container');
 const fireworks = new Fireworks(container, {
   autoresize: false,
-  opacity: 0.5,
-  acceleration: 1.05,
+  opacity: 0.1,
+  acceleration: 1.02,
   friction: 0.97,
   gravity: 1.5,
-  particles: 50,
+  particles: 150,
   traceLength: 3,
-  traceSpeed: 10,
-  explosion: 8,
+  traceSpeed: 1,
+  explosion: 5,
   intensity: 30,
   flickering: 50,
   lineStyle: 'round',
   hue: {
     min: 0,
-    max: 360,
+    max: 345,
   },
   delay: {
-    min: 90,
-    max: 100,
+    min: 30,
+    max: 60,
   },
   rocketsPoint: {
     min: 50,
@@ -48,6 +48,13 @@ const fireworks = new Fireworks(container, {
     click: true,
     move: false,
     max: 1,
+  },
+  sound: {
+    enabled: true,
+    volume: {
+      min: 10,
+      max: 10,
+    },
   },
 });
 fireworks.start();
