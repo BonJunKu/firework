@@ -47,13 +47,14 @@ const fireworks = new Fireworks(container, {
   mouse: {
     click: true,
     move: false,
-    max: 1,
+    max: 50,
   },
   sound: {
     enabled: true,
+    files: ['explosion0.mp3', 'explosion1.mp3', 'explosion2.mp3'],
     volume: {
-      min: 10,
-      max: 10,
+      min: 30,
+      max: 40,
     },
   },
 });
